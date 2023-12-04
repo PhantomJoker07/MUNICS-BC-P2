@@ -1,0 +1,146 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "file",
+				"type": "string"
+			}
+		],
+		"name": "setFileIPFS",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "userFiles",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	
+
+	
+
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "file",
+				"type": "string"
+			}
+		],
+		"name": "addFileIPFS",
+		"outputs": [
+			{
+				"internalType": "uint",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+
+	{
+		"inputs": [],
+		"name": "getPublicFilesIPFS",
+		"outputs": [
+			{
+				"internalType": "uint256[]",
+				"name": "",
+				"type": "uint256[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+
+	{
+		"inputs": [],
+		"name": "getFilesOwnedIPFS",
+		"outputs": [
+			{
+				"internalType": "uint256[]",
+				"name": "",
+				"type": "uint256[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+
+	{
+		"inputs": [
+			{
+				"internalType": "uint",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "readFileIPFS",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+
+	{
+		"inputs": [
+			{
+				"internalType": "uint",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "deleteFileIPFS",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+
+	{
+		"inputs": [
+			{
+				"internalType": "uint",
+				"name": "",
+				"type": "uint256"
+			},
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"name": "setPublicFlag",
+		"outputs": [
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
